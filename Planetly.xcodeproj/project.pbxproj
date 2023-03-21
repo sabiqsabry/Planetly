@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		13A66BE029C8062F00EA2E8C /* PlanetlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A66BDF29C8062F00EA2E8C /* PlanetlyApp.swift */; };
-		13A66BE229C8062F00EA2E8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A66BE129C8062F00EA2E8C /* ContentView.swift */; };
 		13A66BE429C8063100EA2E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A66BE329C8063100EA2E8C /* Assets.xcassets */; };
 		13A66BE729C8063100EA2E8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A66BE629C8063100EA2E8C /* Preview Assets.xcassets */; };
 		13A66BF129C8063100EA2E8C /* PlanetlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A66BF029C8063100EA2E8C /* PlanetlyTests.swift */; };
 		13A66BFB29C8063100EA2E8C /* PlanetlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A66BFA29C8063100EA2E8C /* PlanetlyUITests.swift */; };
 		13A66BFD29C8063100EA2E8C /* PlanetlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A66BFC29C8063100EA2E8C /* PlanetlyUITestsLaunchTests.swift */; };
+		13A66C0A29C81CF100EA2E8C /* framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A66C0929C81CF100EA2E8C /* framework.swift */; };
+		13A66C0C29C829E400EA2E8C /* frameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A66C0B29C829E400EA2E8C /* frameworkGridView.swift */; };
+		13A66C0E29C95E0100EA2E8C /* frameworkPlanetsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A66C0D29C95E0100EA2E8C /* frameworkPlanetsDetailView.swift */; };
+		13A66C1029C965FC00EA2E8C /* frameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A66C0F29C965FC00EA2E8C /* frameworkGridViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		13A66BDC29C8062F00EA2E8C /* Planetly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planetly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A66BDF29C8062F00EA2E8C /* PlanetlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetlyApp.swift; sourceTree = "<group>"; };
-		13A66BE129C8062F00EA2E8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		13A66BE329C8063100EA2E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13A66BE629C8063100EA2E8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		13A66BEC29C8063100EA2E8C /* PlanetlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,10 @@
 		13A66BF629C8063100EA2E8C /* PlanetlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A66BFA29C8063100EA2E8C /* PlanetlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetlyUITests.swift; sourceTree = "<group>"; };
 		13A66BFC29C8063100EA2E8C /* PlanetlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		13A66C0929C81CF100EA2E8C /* framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = framework.swift; sourceTree = "<group>"; };
+		13A66C0B29C829E400EA2E8C /* frameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frameworkGridView.swift; sourceTree = "<group>"; };
+		13A66C0D29C95E0100EA2E8C /* frameworkPlanetsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frameworkPlanetsDetailView.swift; sourceTree = "<group>"; };
+		13A66C0F29C965FC00EA2E8C /* frameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frameworkGridViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				13A66BDF29C8062F00EA2E8C /* PlanetlyApp.swift */,
-				13A66BE129C8062F00EA2E8C /* ContentView.swift */,
+				13A66C0B29C829E400EA2E8C /* frameworkGridView.swift */,
+				13A66C0D29C95E0100EA2E8C /* frameworkPlanetsDetailView.swift */,
+				13A66C0929C81CF100EA2E8C /* framework.swift */,
 				13A66BE329C8063100EA2E8C /* Assets.xcassets */,
 				13A66BE529C8063100EA2E8C /* Preview Content */,
+				13A66C0F29C965FC00EA2E8C /* frameworkGridViewModel.swift */,
 			);
 			path = Planetly;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13A66BE229C8062F00EA2E8C /* ContentView.swift in Sources */,
+				13A66C0E29C95E0100EA2E8C /* frameworkPlanetsDetailView.swift in Sources */,
+				13A66C1029C965FC00EA2E8C /* frameworkGridViewModel.swift in Sources */,
+				13A66C0A29C81CF100EA2E8C /* framework.swift in Sources */,
 				13A66BE029C8062F00EA2E8C /* PlanetlyApp.swift in Sources */,
+				13A66C0C29C829E400EA2E8C /* frameworkGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

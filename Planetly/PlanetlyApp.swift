@@ -11,7 +11,7 @@ import SwiftUI
 struct PlanetlyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            frameworkGridView()
         }
     }
 }
